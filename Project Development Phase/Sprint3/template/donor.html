@@ -32,15 +32,23 @@
     <tbody>
       <tr>
         {% for row in donor2 %}
-        <td>{{ row["EMAIL"] }}</td>
-        <td>{{ row["AGE"] }}</td>
-        <td>{{ row["GENDER"] }}</td>
-        <td>{{ row["BLOOD"] }}</td>
-        <td>{{ row["AREA"] }}</td>
-        <td>{{ row["CITY"] }}</td>
-        <td>{{ row["DISTRICT"] }}</td>
-        <td>
+        <td>reenusebas31@gmail.com</td>
+        <td>21</td>
+        <td>Female</td>
+        <td>o+ve</td>
+        <td>No:11, RK Street</td>
+        <td>T Nagar</td>
+        <td>Chennai</td>
         <a href="{{url_for('request_page')}}" class="btn-sm btn-info" style="color: white; text-decoration:none">Request</a>
+        <td>shireenalju@gmail.com</td>
+        <td>23</td>
+        <td>Female</td>
+        <td>ab+ve</td>
+        <td>No:02, Sara Nagar</td>
+        <td>Alangudi</td>
+        <td>Karaikudi</td>
+        <a href="{{url_for('request_page')}}" class="btn-sm btn-info" style="color: white; text-decoration:none">Request</a>
+        
         </td>
       </tr>
       {% endfor %}
